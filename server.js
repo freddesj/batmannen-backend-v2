@@ -59,6 +59,6 @@ app.post("/fartyg", async (req, res) => {
   res.json({ ...req.body, _id: result.insertedId });
 });
 
-app.listen(PORT, () => {
+app.listen(8080, '0.0.0.0', () => {
   console.log(`🚀 Servern körs på port ${PORT}`);
 });
