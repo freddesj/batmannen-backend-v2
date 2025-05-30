@@ -1,0 +1,13 @@
+{
+  "name": "batmannen-backend-v2",
+  "version": "1.0.0",
+  "description": "Backend f\u00f6r B\u00e5tm\u00e4nnen",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
